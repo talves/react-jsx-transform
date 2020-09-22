@@ -1,8 +1,10 @@
 {
   "name": "react-jsx-transform",
+  "description": "A quick little example of the new `JSX` transform",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production --target node",
