@@ -14,15 +14,14 @@ html {
   font-family: system;
   font-style: normal;
   font-weight: 300;
-  src: local("BlinkMacSystemFont"), local("Segoe UI"), local("Roboto"),
+  src: local("system-ui"), local("Segoe UI"), local("Roboto"),
     local("Helvetica"), local("Arial"), local("sans-serif"),
     local("Apple Color Emoji"), local("Segoe UI Emoji"),
     local("Segoe UI Symbol");
 }
 
-/* Now, let's apply it on an element */
 body {
-  font-family: -apple-system, "system";
+  font-family: "system";
 }
 
 #root {
